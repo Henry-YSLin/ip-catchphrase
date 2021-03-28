@@ -47,3 +47,7 @@ const catchphrase3 = getAddress("runner rally day significence");
 console.log(catchphrase3); // { address: '192.168.0.1', port: 25565, typos: [...] }
 console.log(catchphrase3.typos); // [{ original: 'significence', fixed: 'significance', confidence: 0.9166666666666666 }]
 ```
+
+## Credits
+
+The word list used in this package is a processed version of [http://www.desiquintans.com/nounlist](http://www.desiquintans.com/nounlist)
