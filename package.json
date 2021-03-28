@@ -5,6 +5,15 @@
   "license": "MIT",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
+  "readme": "README.md",
+  "author": "Henry-YSLin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Henry-YSLin/ip-catchphrase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Henry-YSLin/ip-catchphrase/issues"
+  },
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
