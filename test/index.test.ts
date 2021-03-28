@@ -1,4 +1,4 @@
-import { getAddress, getCatchphrase } from '../src/ip-catchphrase';
+import { getAddress, getCatchphrase } from '../src';
 import 'jest-chain';
 
 test('Valid IP and port', () => {

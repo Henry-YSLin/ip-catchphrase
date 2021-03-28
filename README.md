@@ -19,12 +19,12 @@ Convert from IP address to catchphrase
 ```javascript
 const { getCatchphrase } = require("ip-catchphrase");
 
-const catchphrase = getCatchPhrase("192.168.0.1");
+const catchphrase = getCatchphrase("192.168.0.1");
 console.log(catchphrase); // 'runner rally still'
 
 // Optionally specify a port number
 
-const catchphrase2 = getCatchPhrase("192.168.0.1", 25565);
+const catchphrase2 = getCatchphrase("192.168.0.1", 25565);
 console.log(catchphrase2); // 'runner rally day significance'
 ```
 
